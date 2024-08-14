@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative bg-black flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
+    <main className="relative bg-white dark:bg-black text-black-100 dark:text-white-200 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
@@ -22,7 +22,7 @@ export default function Home() {
         <Clients />
         <Experience />
         <Approach />
-        <Footer /> 
+        <Footer />
       </div>
     </main>
   );
